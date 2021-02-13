@@ -8,14 +8,17 @@ Manages List of tasks.
 Displays Items for the next week. 
     Won't display if checked off. 
 
-yarn build  
+creates installer
+    
+    yarn build  
 
-    creates installer
 
-yarn start
+runs electron app
 
-    runs electron app
+    yarn start
 
-yarn react-start
+runs react only
 
-    runs react only
+    yarn react-start
+
+    
