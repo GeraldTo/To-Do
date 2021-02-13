@@ -16,7 +16,7 @@
   "description": "To do list manager",
   "author": "Gerald T",
   "build": {
-  "appId": "com.my-app.app"
+    "appId": "com.my-app.app"
   },
   "main": "public/electron.js",
   "homepage": "./",
