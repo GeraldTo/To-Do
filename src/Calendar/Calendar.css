@@ -1,0 +1,29 @@
+.Calendar{
+    margin:1rem auto;
+    max-width: calc(100% - 2rem);
+    width: 60rem;
+    border-style: ridge;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.19), 0 .3rem .3rem rgba(0, 0, 0, 0.23);
+    padding: .5rem;
+}
+
+h2,h3{
+    margin: 0px;
+}
+
+.Days{
+    border-style: ridge;
+    margin: .5rem;
+}
+
+.Date{
+    font-size: small;
+    font-style: italic;
+}
+
+.DailyTaskItem{
+    font-size: large;
+    border-style: ridge;
+    margin: .2rem
+}

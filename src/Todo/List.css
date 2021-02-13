@@ -1,0 +1,27 @@
+
+.Delete{
+    border-style: solid;
+    border-color:red;
+    border-radius: 1rem;
+    height: 1.5rem;
+    background-color: red;
+    color: white;
+}
+
+.Item{
+    border-style: groove;
+    border-radius: .5rem;
+    padding: .5rem;
+    text-align: center;
+    display: flex;
+    margin-top: .2rem;
+}
+
+.Description{
+    flex-grow: 1;
+    padding: 0 2rem 0 2rem;
+}
+  
+.DateItem{
+    font-style: italic;
+}

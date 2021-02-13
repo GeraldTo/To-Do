@@ -9,8 +9,11 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      
+      <h1>To-Do App</h1>
+      {/* Calls object to generate todo list */}
+      <Todo objects={objects} setObjects={setObjects} /> 
+      {/* Calls object to generate calender */}
+      <Calendar objects={objects} setObjects={setObjects}/>
     </div>
   );
 }

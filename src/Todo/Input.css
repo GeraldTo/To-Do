@@ -1,0 +1,26 @@
+
+.Input{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr) ) ;
+    grid-auto-rows: minmax(3rem, auto);
+    grid-gap:.3rem;
+    justify-content: center;
+    margin: 0 1rem 2rem 1rem;
+    
+  }
+
+.Tasks{
+  grid-column: auto / span 4;
+}
+
+.Date{
+  grid-column: auto / span 2;
+}
+
+
+.InputButton{
+  grid-column: auto / span 1;
+  background: #24cf49;
+  color: white;
+  border: none;
+}
