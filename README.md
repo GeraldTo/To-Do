@@ -12,11 +12,11 @@ After downloading, must add node modules
     
     yarn add
   
-runs electron app in dev mode
+Runs electron app in dev mode
 
     yarn start
 
-runs react only in browser
+Runs react only in browser
 
     yarn react-start
     
