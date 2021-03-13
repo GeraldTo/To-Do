@@ -12,7 +12,7 @@ Update node modules
     
     yarn add
     
-creates installer
+creates final product
     
     yarn build  
 
