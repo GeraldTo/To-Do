@@ -8,21 +8,22 @@ Manages list app of tasks.
 Displays Items for the next week. 
     Won't display if checked off. 
 
-Update node modules
+After downloading, must add node modules
     
     yarn add
+  
+runs electron app in dev mode
+
+    yarn start
+
+runs react only in browser
+
+    yarn react-start
     
-creates final product
+Creates final product
     
     yarn build  
 
 
-runs electron app
-
-    yarn start
-
-runs react only
-
-    yarn react-start
 
     
