@@ -18,7 +18,8 @@ export default function Todo(props) {
   return (
     <div className="Todo">
       <form onSubmit={add}>
-        <p className="Instructions">Add items to list. Date is optional</p>
+        <h2>Add Items To List</h2>
+        <p className="Instructions">Date is optional</p>
         <Input desc={desc} setDesc={setDesc} date={date} setDate={setDate} />
         <List objects={props.objects} setObjects={props.setObjects} />
       </form>

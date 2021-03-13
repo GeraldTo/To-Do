@@ -1,21 +1,20 @@
 .App {
-  text-align: center;
-  
+	text-align: center;
 }
 
-.Todo{
-  margin:1rem auto;
-  max-width: calc(100% - 2rem);
-  width: 60rem;
-  border-style: ridge;
-  border-radius: 1rem;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.19), 0 .3rem .3rem rgba(0, 0, 0, 0.23);
-  padding: 0 .5rem .5rem .5rem;
+.Todo {
+	margin: 1rem auto;
+	max-width: calc(100% - 2rem);
+	width: 60rem;
+	border-style: ridge;
+	border-radius: 1rem;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.19),
+		0 0.3rem 0.3rem rgba(0, 0, 0, 0.23);
+	padding: 0.5rem;
 }
 
-.Instructions{
-  font-size: x-small;
-  font-style: italic;
-  font-weight: lighter;
+.Instructions {
+	font-size: x-small;
+	font-style: italic;
+	font-weight: lighter;
 }
-
