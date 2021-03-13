@@ -10,7 +10,7 @@ Displays Items for the next week.
 
 Update node modules
     
-    npm intall
+    yarn add
     
 creates installer
     
