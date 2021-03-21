@@ -1,4 +1,4 @@
-# To-Do-List
+# To Do List App
 Simple Todo list made with React and Electron
 
 Manages list app of tasks. 
