@@ -10,7 +10,7 @@ Displays Items for the next week.
 
 After downloading, must add node modules
     
-    yarn add
+    yarn
   
 Runs electron app in dev mode
 
