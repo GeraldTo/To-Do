@@ -1,4 +1,4 @@
-# To-Do-List
+# To Do List App
 Simple Todo list made with React and Electron
 
 Manages list app of tasks. 
@@ -10,7 +10,7 @@ Displays Items for the next week.
 
 After downloading, must add node modules
     
-    yarn add
+    yarn
   
 Runs electron app in dev mode
 
