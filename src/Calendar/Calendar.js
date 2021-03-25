@@ -13,7 +13,7 @@ export default function Calendar(props) {
     return (
         <div className="Calendar">
             <h2>Tasks For The Next Week</h2>
-            {initDays}
+            {[...Array(7)].map((_, index) => { return <CalendarDay key={index} index={index} objects={props.objects} /> })}
         </div>
     )
 }

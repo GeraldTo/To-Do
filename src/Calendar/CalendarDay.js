@@ -25,23 +25,16 @@ export default function CalendarDay(props) {
         }
         setTasks(newTasks)
     }, [props.objects])
-    if (todaysTasks.length > 0) {
+    return (
+        <div className="Days" >
+            {/* gets current day of the week */}
+            <h3>{currentDay.getDay() === today.getDay() ? "Today"
+                : currentDay.getDay() === today.getDay() + 1 ? "Tomorrow"
+                    : week[currentDay.getDay()]}</h3>
+            {/* Displays date */}
+            <label className="Date">{currentDay.getFullYear() + '-' + ('0' + (currentDay.getMonth() + 1)).slice(-2) + '-' + ('0' + currentDay.getDate()).slice(-2)}<br /></label>
+            <div className="DailyTasks">{todaysTasks}</div>
 
-
-        return (
-            <div className="Days" >
-                {/* gets current day of the week */}
-                <h3>{currentDay.getDay() === today.getDay() ? "Today"
-                    : currentDay.getDay() === today.getDay() + 1 ? "Tomorrow"
-                        : week[currentDay.getDay()]}</h3>
-                {/* Displays date */}
-                <label className="Date">{currentDay.getFullYear() + '-' + ('0' + (currentDay.getMonth() + 1)).slice(-2) + '-' + ('0' + currentDay.getDate()).slice(-2)}<br /></label>
-                <div className="DailyTasks">{todaysTasks}</div>
-
-            </div>
-        )
-    }
-    else {
-        return <div></div>
-    }
+        </div>
+    )
 }

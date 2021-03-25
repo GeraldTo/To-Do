@@ -21,6 +21,12 @@
 		"directories": {
 			"output": "ToDo"
 		},
+		"nsis": {
+			"createStartMenuShortcut": true,
+			"oneClick": false,
+			"perMachine": false,
+			"allowToChangeInstallationDirectory": true
+		},
 		"win": {
 			"icon": "resources/icon.ico"
 		},
